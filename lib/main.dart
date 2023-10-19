@@ -9,9 +9,9 @@ void main() {
       getPages: [
         GetPage(name: "/", page: () => MyHomePage()),
         GetPage(name: "/pagealesha", page: () => Alesha()),
-        GetPage(name: "/pagealesha", page: () => Polina()),
-        GetPage(name: "/pagealesha", page: () => Anya()),
-        GetPage(name: "/pagealesha", page: () => Nikita()),
+        GetPage(name: "/pagepolina", page: () => Polina()),
+        GetPage(name: "/pageanya", page: () => Anya()),
+        GetPage(name: "/pagenikita", page: () => Nikita()),
       ],
     )
   );
