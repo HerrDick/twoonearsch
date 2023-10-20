@@ -26,7 +26,7 @@ class _MyHomePageState extends State<MyHomePage> {
         Get.toNamed("/pagenikita");
       }, child: Text("akme[[ff[oamor"))
       ],
-      );
+      )
     );
   }
 }
