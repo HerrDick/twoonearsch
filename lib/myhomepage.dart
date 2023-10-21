@@ -12,21 +12,32 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(children: [
-        ElevatedButton(onPressed:  () {
-        Get.toNamed("/pagealesha");
-      }, child: Text("akmeoajgfgfkjfkjmor")),
-      ElevatedButton(onPressed:  () {
-        Get.toNamed("/pageanya");
-      }, child: Text("akmea[a[aoamor")),
-      ElevatedButton(onPressed:  () {
-        Get.toNamed("/pagepolina");
-      }, child: Text("akme[[ff[oamor")),
-      ElevatedButton(onPressed:  () {
-        Get.toNamed("/pagenikita");
-      }, child: Text("akme[[ff[oamor"))
-      ],
-      )
+      body: Center(
+          child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          ElevatedButton(
+              onPressed: () {
+                Get.toNamed("/pagealesha");
+              },
+              child: Text("AleshaButton")),
+          ElevatedButton(
+              onPressed: () {
+                Get.toNamed("/pageanya");
+              },
+              child: Text("AnyaButton")),
+          ElevatedButton(
+              onPressed: () {
+                Get.toNamed("/pagepolina");
+              },
+              child: Text("PolinaButton")),
+          ElevatedButton(
+              onPressed: () {
+                Get.toNamed("/pagenikita");
+              },
+              child: Text("NikitaButton"))
+        ],
+      )),
     );
   }
 }
